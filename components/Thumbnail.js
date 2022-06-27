@@ -30,4 +30,6 @@ const Thumbnail = forwardRef(({result},  ref) => {
   );
 })
 
+MyComponent.displayName = 'Thumbnail';
+
 export default Thumbnail
